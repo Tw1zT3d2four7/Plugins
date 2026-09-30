@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:43:22Z",
+  "generated_at": "2026-09-30T22:44:28Z",
   "manifest": {
     "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
     "registry_name": "Tw1zT3d2four7/Plugins",
@@ -71,11 +71,12 @@
         "manifest_url": "https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/metadata/decypharr-vod/manifest.json",
         "author": "Tw1zT3d2four7",
         "license": "MIT",
-        "last_updated": "2026-09-29T22:14:51-04:00",
-        "latest_version": "0.5.1",
-        "latest_md5": "9208989c0e6d512c60f09a341fdabffe",
-        "latest_sha256": "2942e2fc7248e4d3273f177d6df507a3f22a6683710bcc869b63b40bae17b191",
-        "latest_url": "decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip"
+        "last_updated": "2026-09-30T18:44:02-04:00",
+        "latest_version": "1.0.0",
+        "latest_md5": "8a9319acdfe1e2836924f8d6947cd40e",
+        "latest_sha256": "ce0e8296a5147dba2251d7afca9a6400c13fdbda81bfcd2fcdc91bab42c8c635",
+        "latest_url": "decypharr-vod-1.0.0/decypharr-vod-1.0.0.zip",
+        "latest_size": 1461
       },
       {
         "slug": "dispatcharr-exporter",

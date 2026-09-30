@@ -2,7 +2,7 @@
 
 # Decypharr VOD
 
-**Version:** `0.5.1` | **Author:** Tw1zT3d2four7 | **Last Updated:** Sep 30 2026, 02:14 UTC
+**Version:** `0.5.2` | **Author:** Tw1zT3d2four7 | **Last Updated:** Sep 30 2026, 04:07 UTC
 
 Native Dispatcharr VOD integration for Decypharr media, providing automatic scanning and organization of movies, series, seasons, and episodes.
 
@@ -26,6 +26,7 @@ SHA256: 2942e2fc7248e4d3273f177d6df507a3f22a6683710bcc869b63b40bae17b191
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `0.5.2` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/decypharr-vod-0.5.2/decypharr-vod-0.5.2.zip) | Sep 30 2026, 00:00 UTC | - | - | - |
 | `0.5.1` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip) | Sep 30 2026, 03:28 UTC | [`da8574f`](https://github.com/Tw1zT3d2four7/Plugins/commit/da8574f3dd2e3b8362b3c8ae6eb9a92767f48da0) | 9208989c0e6d512c60f09a341fdabffe | 2942e2fc7248e4d3273f177d6df507a3f22a6683710bcc869b63b40bae17b191 |
 
 ---

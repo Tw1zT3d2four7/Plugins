@@ -15,12 +15,12 @@ This branch contains all published plugin releases.
 | [`Channel Mapparr`](#channel-mapparr) | `1.26.2481147` | PiratesIRC | MIT | Standardizes broadcast (OTA) and premium/cable channel names using network data and channel lists. Supports M3U stream import, category organization, and fuzzy matching across 42K+ channels in 11 countries. |
 | [`Clapparr`](#clapparr) | `1.3.0` | v8eta | MIT | The metadata slate for your DVR: writes Kodi/Plex NFO sidecars, posters and episode thumbnails so recordings present with real titles, summaries and artwork instead of 'Episode 08-18'. |
 | [`Could Not Dispatch`](#could-not-dispatch) | `0.4.0` | PilaScat | MIT | Plays a looping image or video when every real stream on a channel has failed, so viewers see a message instead of a black screen. With an API key, it later sends the channel back to its first stream. |
-| [`Decypharr VOD`](#decypharr-vod) | `0.5.1` | Tw1zT3d2four7 | MIT | Native Dispatcharr VOD integration for Decypharr media, providing automatic scanning and organization of movies, series, seasons, and episodes. |
+| [`Decypharr VOD`](#decypharr-vod) | `0.5.2` | Tw1zT3d2four7 | MIT | Native Dispatcharr VOD integration for Decypharr media, providing automatic scanning and organization of movies, series, seasons, and episodes. |
 | [`Dispatcharr Exporter`](#dispatcharr-exporter) | `3.1.0` | sethwv | MIT | Expose Dispatcharr metrics in Prometheus exporter-compatible format for monitoring |
 | [`Ranked Matchups (Top Games)`](#ranked-matchups-top-games-) | `1.31.0` | Jacob-Lasky | MIT | Never miss a good game. Scores every upcoming game across 39 leagues, tours and competitions (22 of them soccer, plus NFL, NBA, MLB, NHL, NCAA D1 football and basketball, UFC, boxing, tennis, golf and motorsport), then builds a Top Matchups group holding only the ones worth watching and shows why each game ranked where it did in its EPG description. Finished games can clear themselves out and be replaced from a bench of the next-best fixtures. |
 | [`Dispatchwrapparr`](#dispatchwrapparr) | `1.7.8` | jordandalley | MIT | An intelligent DRM/Clearkey capable stream profile for Dispatcharr |
 | [`Dustarr`](#dustarr) | `1.26.2481620` | PiratesIRC | MIT | Records which channels are actually watched and reports the ones that are not, so you can turn off the dead weight in your lineup. Read only: it never changes a channel and never contacts your provider. |
-| [`EPG & Sports Editor`](#epg-sports-editor) | `0.5.06` | jstevenscl | MIT | Transform and clean your EPG data using regex and find/replace rules. Creates virtual copies of your sources — originals are never touched. Fills placeholder schedules for channels with no EPG, and includes a Sports Editor: automatically renames Auto Channel Sync-created sports channels, assigns matchup logos, and generates real Pregame/Live/Postgame EPG data by matching against a live public schedule (93 leagues — every major US team sport, 30+ soccer competitions, tennis, golf, NASCAR, F1, UFC/MMA/boxing/darts, and more). Renamed from EPGeditARR; existing installs carry their settings forward automatically. |
+| [`EPG & Sports Editor`](#epg-sports-editor) | `0.5.07` | jstevenscl | MIT | Transform and clean your EPG data using regex and find/replace rules. Creates virtual copies of your sources — originals are never touched. Fills placeholder schedules for channels with no EPG, and includes a Sports Editor: automatically renames Auto Channel Sync-created sports channels, assigns matchup logos, and generates real Pregame/Live/Postgame EPG data by matching against a live public schedule (93 leagues — every major US team sport, 30+ soccer competitions, tennis, golf, NASCAR, F1, UFC/MMA/boxing/darts, and more). Renamed from EPGeditARR; existing installs carry their settings forward automatically. |
 | [`EPG Janitor`](#epg-janitor) | `1.26.2481223` | PiratesIRC | MIT | Scans for channels with EPG assignments but no program data. Auto-matches EPG to channels using intelligent fuzzy matching with aliases, removes EPG from hidden channels, and manages EPG assignments. |
 | [`Event Channel Managarr`](#event-channel-managarr) | `1.26.2631853` | PiratesIRC | MIT | Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG. |
 | [`Gluetun Rotate`](#gluetun-rotate) | `0.3.0` | PilaScat | MIT | Moves Gluetun to another VPN server when the IPTV provider refuses the current exit address. |
@@ -117,17 +117,17 @@ Plays a looping image or video when every real stream on a channel has failed, s
 
 ### [Decypharr VOD](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/decypharr-vod/README.md)
 
-**Version:** `0.5.1` | **Author:** Tw1zT3d2four7 | **Last Updated:** Sep 30 2026, 02:14 UTC
+**Version:** `0.5.2` | **Author:** Tw1zT3d2four7 | **Last Updated:** Sep 30 2026, 04:07 UTC
 
 Native Dispatcharr VOD integration for Decypharr media, providing automatic scanning and organization of movies, series, seasons, and episodes.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Tw1zT3d2four7/Decypharr_vod)
 
 **Downloads:**
-- [Latest Release (`0.5.1`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip)
-- [All Versions (1 available)](./metadata/decypharr-vod)
+- [Latest Release (`0.5.2`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip)
+- [All Versions (2 available)](./metadata/decypharr-vod)
 
-**Maintainers:** Tw1zT3d2four7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/decypharr-vod) | **Last Change:** [`da8574f`](https://github.com/Tw1zT3d2four7/Plugins/commit/da8574f3dd2e3b8362b3c8ae6eb9a92767f48da0)
+**Maintainers:** Tw1zT3d2four7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/decypharr-vod) | **Last Change:** [`d92a2ca`](https://github.com/Tw1zT3d2four7/Plugins/commit/d92a2ca18c79f09b65cd4ac6d5cf493e32c825b2)
 
 ---
 
@@ -203,17 +203,17 @@ Records which channels are actually watched and reports the ones that are not, s
 
 ### [EPG & Sports Editor](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/epg-and-sports-editor/README.md)
 
-**Version:** `0.5.06` | **Author:** jstevenscl | **Last Updated:** Sep 29 2026, 01:20 UTC
+**Version:** `0.5.07` | **Author:** jstevenscl | **Last Updated:** Sep 30 2026, 05:00 UTC
 
 Transform and clean your EPG data using regex and find/replace rules. Creates virtual copies of your sources — originals are never touched. Fills placeholder schedules for channels with no EPG, and includes a Sports Editor: automatically renames Auto Channel Sync-created sports channels, assigns matchup logos, and generates real Pregame/Live/Postgame EPG data by matching against a live public schedule (93 leagues — every major US team sport, 30+ soccer competitions, tennis, golf, NASCAR, F1, UFC/MMA/boxing/darts, and more). Renamed from EPGeditARR; existing installs carry their settings forward automatically.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jstevenscl/epg-and-sports-editor)
 
 **Downloads:**
-- [Latest Release (`0.5.06`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/epg-and-sports-editor-0.5.06/epg-and-sports-editor-0.5.06.zip)
-- [All Versions (1 available)](./metadata/epg-and-sports-editor)
+- [Latest Release (`0.5.07`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/epg-and-sports-editor-0.5.07/epg-and-sports-editor-0.5.07.zip)
+- [All Versions (2 available)](./metadata/epg-and-sports-editor)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/epg-and-sports-editor) | **Last Change:** [`f9a6f72`](https://github.com/Tw1zT3d2four7/Plugins/commit/f9a6f729f795a3bdc2262789feb0aab2b9029e68)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/epg-and-sports-editor) | **Last Change:** [`8bb2000`](https://github.com/Tw1zT3d2four7/Plugins/commit/8bb20007b9cb08babf713f659a36b83e02145c81)
 
 ---
 
@@ -594,4 +594,4 @@ curl https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/manifest.j
 
 ---
 
-*Last updated: Sep 30 2026, 03:30 UTC*
+*Last updated: Sep 30 2026, 22:43 UTC*

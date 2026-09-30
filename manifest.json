@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:30:52Z",
+  "generated_at": "2026-09-30T22:43:22Z",
   "manifest": {
     "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
     "registry_name": "Tw1zT3d2four7/Plugins",
@@ -75,8 +75,7 @@
         "latest_version": "0.5.1",
         "latest_md5": "9208989c0e6d512c60f09a341fdabffe",
         "latest_sha256": "2942e2fc7248e4d3273f177d6df507a3f22a6683710bcc869b63b40bae17b191",
-        "latest_url": "decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip",
-        "latest_size": 1448
+        "latest_url": "decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip"
       },
       {
         "slug": "dispatcharr-exporter",
@@ -144,12 +143,12 @@
         "manifest_url": "https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/metadata/epg-and-sports-editor/manifest.json",
         "author": "jstevenscl",
         "license": "MIT",
-        "last_updated": "2026-09-29T01:20:07Z",
-        "latest_version": "0.5.06",
-        "latest_md5": "6c560f4b033f83169dbf4db5279f1c53",
-        "latest_sha256": "62c2218bfb14bd244517974e0be0f0c74babeb70170dff7608430090c0df9aac",
-        "latest_url": "epg-and-sports-editor-0.5.06/epg-and-sports-editor-0.5.06.zip",
-        "latest_size": 166
+        "last_updated": "2026-09-30T05:00:13Z",
+        "latest_version": "0.5.07",
+        "latest_md5": "f7fcd7c4f90a17ed8af7ce969acb576a",
+        "latest_sha256": "496ef1567878bc21c59d09cc7137ea0abea841df150ac7c6c01bac680195991a",
+        "latest_url": "epg-and-sports-editor-0.5.07/epg-and-sports-editor-0.5.07.zip",
+        "latest_size": 167
       },
       {
         "slug": "epg-janitor",

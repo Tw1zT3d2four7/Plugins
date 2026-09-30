@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-09-30T03:30:52Z",
+  "manifest": {
+    "slug": "could-not-dispatch",
+    "name": "Could Not Dispatch",
+    "description": "Plays a looping image or video when every real stream on a channel has failed, so viewers see a message instead of a black screen. With an API key, it later sends the channel back to its first stream.",
+    "author": "PilaScat",
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/PilaScat/could-not-dispatch/releases/download/v{version}/could-not-dispatch-{version}.zip",
+    "repo_url": "https://github.com/PilaScat/could-not-dispatch",
+    "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
+    "registry_name": "Tw1zT3d2four7/Plugins",
+    "last_updated": "2026-09-14T14:46:16Z",
+    "latest": {
+      "version": "0.4.0",
+      "commit_sha": "3ee82eb1a2a2abf598e570d617b944149cc019ad",
+      "commit_sha_short": "3ee82eb",
+      "build_timestamp": "2026-09-30T03:28:56Z",
+      "last_updated": "2026-09-14T14:46:16Z",
+      "checksum_md5": "534e882eaa7b4ac919695c672eac80d5",
+      "checksum_sha256": "f96552647275488771c74526dfb0780f1ce82e5065a0494dbfb694636bf97d29",
+      "source_url": "https://github.com/PilaScat/could-not-dispatch/releases/download/v0.4.0/could-not-dispatch-0.4.0.zip",
+      "latest_url": "could-not-dispatch-0.4.0/could-not-dispatch-0.4.0.zip",
+      "url": "could-not-dispatch-0.4.0/could-not-dispatch-0.4.0.zip",
+      "size": 63
+    },
+    "versions": [
+      {
+        "version": "0.4.0",
+        "commit_sha": "3ee82eb1a2a2abf598e570d617b944149cc019ad",
+        "commit_sha_short": "3ee82eb",
+        "build_timestamp": "2026-09-30T03:28:56Z",
+        "last_updated": "2026-09-14T14:46:16Z",
+        "checksum_md5": "534e882eaa7b4ac919695c672eac80d5",
+        "checksum_sha256": "f96552647275488771c74526dfb0780f1ce82e5065a0494dbfb694636bf97d29",
+        "source_url": "https://github.com/PilaScat/could-not-dispatch/releases/download/v0.4.0/could-not-dispatch-0.4.0.zip",
+        "url": "could-not-dispatch-0.4.0/could-not-dispatch-0.4.0.zip",
+        "size": 63
+      }
+    ]
+  }
+}

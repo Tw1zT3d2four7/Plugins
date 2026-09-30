@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-09-30T03:30:52Z",
+  "manifest": {
+    "slug": "reservoarr",
+    "name": "reservoarr",
+    "description": "Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying",
+    "author": "brko7",
+    "maintainers": [
+      "brko7"
+    ],
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/brko7/reservoarr/releases/download/v{version}/reservoarr-{version}.zip",
+    "repo_url": "https://github.com/brko7/reservoarr",
+    "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
+    "registry_name": "Tw1zT3d2four7/Plugins",
+    "last_updated": "2026-09-19T17:49:48Z",
+    "latest": {
+      "version": "6.3.7",
+      "commit_sha": "82ca657802d13a6b0d4007b242d791fd961407df",
+      "commit_sha_short": "82ca657",
+      "build_timestamp": "2026-09-30T03:30:11Z",
+      "last_updated": "2026-09-19T17:49:48Z",
+      "checksum_md5": "4a778761a475fdb140afa11391682683",
+      "checksum_sha256": "bfb53548e63158cf59babf023059372dfc29f428f27bf7fa5c988e82759e019b",
+      "min_dispatcharr_version": "v0.25.0",
+      "source_url": "https://github.com/brko7/reservoarr/releases/download/v6.3.7/reservoarr-6.3.7.zip",
+      "latest_url": "reservoarr-6.3.7/reservoarr-6.3.7.zip",
+      "url": "reservoarr-6.3.7/reservoarr-6.3.7.zip",
+      "size": 39
+    },
+    "versions": [
+      {
+        "version": "6.3.7",
+        "commit_sha": "82ca657802d13a6b0d4007b242d791fd961407df",
+        "commit_sha_short": "82ca657",
+        "build_timestamp": "2026-09-30T03:30:11Z",
+        "last_updated": "2026-09-19T17:49:48Z",
+        "checksum_md5": "4a778761a475fdb140afa11391682683",
+        "checksum_sha256": "bfb53548e63158cf59babf023059372dfc29f428f27bf7fa5c988e82759e019b",
+        "min_dispatcharr_version": "v0.25.0",
+        "source_url": "https://github.com/brko7/reservoarr/releases/download/v6.3.7/reservoarr-6.3.7.zip",
+        "url": "reservoarr-6.3.7/reservoarr-6.3.7.zip",
+        "size": 39
+      }
+    ]
+  }
+}

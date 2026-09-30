@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-09-30T03:30:52Z",
+  "manifest": {
+    "slug": "gluetun-rotate",
+    "name": "Gluetun Rotate",
+    "description": "Moves Gluetun to another VPN server when the IPTV provider refuses the current exit address.",
+    "author": "PilaScat",
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/PilaScat/gluetun-rotate/releases/download/v{version}/gluetun-rotate-{version}.zip",
+    "repo_url": "https://github.com/PilaScat/gluetun-rotate",
+    "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
+    "registry_name": "Tw1zT3d2four7/Plugins",
+    "last_updated": "2026-09-21T03:51:43Z",
+    "latest": {
+      "version": "0.3.0",
+      "commit_sha": "f8bf9f3352c6144f68d1955b4b3f4b24e6a01fc6",
+      "commit_sha_short": "f8bf9f3",
+      "build_timestamp": "2026-09-30T03:29:33Z",
+      "last_updated": "2026-09-21T03:51:43Z",
+      "checksum_md5": "96f2cf2a44a22388174227c206d505b4",
+      "checksum_sha256": "74f213ab9fa9822c681e86a0158e9ccfa329ee1d1cbb5cc57c97f40ddd1c880b",
+      "source_url": "https://github.com/PilaScat/gluetun-rotate/releases/download/v0.3.0/gluetun-rotate-0.3.0.zip",
+      "latest_url": "gluetun-rotate-0.3.0/gluetun-rotate-0.3.0.zip",
+      "url": "gluetun-rotate-0.3.0/gluetun-rotate-0.3.0.zip",
+      "size": 55
+    },
+    "versions": [
+      {
+        "version": "0.3.0",
+        "commit_sha": "f8bf9f3352c6144f68d1955b4b3f4b24e6a01fc6",
+        "commit_sha_short": "f8bf9f3",
+        "build_timestamp": "2026-09-30T03:29:33Z",
+        "last_updated": "2026-09-21T03:51:43Z",
+        "checksum_md5": "96f2cf2a44a22388174227c206d505b4",
+        "checksum_sha256": "74f213ab9fa9822c681e86a0158e9ccfa329ee1d1cbb5cc57c97f40ddd1c880b",
+        "source_url": "https://github.com/PilaScat/gluetun-rotate/releases/download/v0.3.0/gluetun-rotate-0.3.0.zip",
+        "url": "gluetun-rotate-0.3.0/gluetun-rotate-0.3.0.zip",
+        "size": 55
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-09-30T03:30:52Z",
+  "manifest": {
+    "slug": "underfed",
+    "name": "Underfed",
+    "description": "Moves a channel off a source that is starving it, drifting its sound or refusing it: to the next source when the stream arrives at a fraction of its bitrate or with its timestamps apart, to the back of the chain when the provider answers 403.",
+    "author": "PilaScat",
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/PilaScat/underfed/releases/download/v{version}/underfed-{version}.zip",
+    "repo_url": "https://github.com/PilaScat/underfed",
+    "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
+    "registry_name": "Tw1zT3d2four7/Plugins",
+    "last_updated": "2026-09-21T21:08:43Z",
+    "latest": {
+      "version": "0.5.0",
+      "commit_sha": "89900f9516a27a1946af159412d2210b7e97cb65",
+      "commit_sha_short": "89900f9",
+      "build_timestamp": "2026-09-30T03:30:36Z",
+      "last_updated": "2026-09-21T21:08:43Z",
+      "checksum_md5": "a23dc15479b0c662c80f8c155f4a11d9",
+      "checksum_sha256": "7ecaecd27548ecb156baac8d1e1b2bd1b5e67cb1d99904387f286fa6e729fd3a",
+      "source_url": "https://github.com/PilaScat/underfed/releases/download/v0.5.0/underfed-0.5.0.zip",
+      "latest_url": "underfed-0.5.0/underfed-0.5.0.zip",
+      "url": "underfed-0.5.0/underfed-0.5.0.zip",
+      "size": 49
+    },
+    "versions": [
+      {
+        "version": "0.5.0",
+        "commit_sha": "89900f9516a27a1946af159412d2210b7e97cb65",
+        "commit_sha_short": "89900f9",
+        "build_timestamp": "2026-09-30T03:30:36Z",
+        "last_updated": "2026-09-21T21:08:43Z",
+        "checksum_md5": "a23dc15479b0c662c80f8c155f4a11d9",
+        "checksum_sha256": "7ecaecd27548ecb156baac8d1e1b2bd1b5e67cb1d99904387f286fa6e729fd3a",
+        "source_url": "https://github.com/PilaScat/underfed/releases/download/v0.5.0/underfed-0.5.0.zip",
+        "url": "underfed-0.5.0/underfed-0.5.0.zip",
+        "size": 49
+      }
+    ]
+  }
+}

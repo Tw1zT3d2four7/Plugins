@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-09-30T03:30:52Z",
+  "manifest": {
+    "slug": "decypharr-vod",
+    "name": "Decypharr VOD",
+    "description": "Native Dispatcharr VOD integration for Decypharr media, providing automatic scanning and organization of movies, series, seasons, and episodes.",
+    "author": "Tw1zT3d2four7",
+    "maintainers": [
+      "Tw1zT3d2four7"
+    ],
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/Tw1zT3d2four7/Decypharr_vod/releases/download/v{version}/decypharr_vod.zip",
+    "repo_url": "https://github.com/Tw1zT3d2four7/Decypharr_vod",
+    "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
+    "registry_name": "Tw1zT3d2four7/Plugins",
+    "last_updated": "2026-09-29T22:14:51-04:00",
+    "latest": {
+      "version": "0.5.1",
+      "commit_sha": "da8574f3dd2e3b8362b3c8ae6eb9a92767f48da0",
+      "commit_sha_short": "da8574f",
+      "build_timestamp": "2026-09-30T03:28:59Z",
+      "last_updated": "2026-09-29T22:14:51-04:00",
+      "checksum_md5": "9208989c0e6d512c60f09a341fdabffe",
+      "checksum_sha256": "2942e2fc7248e4d3273f177d6df507a3f22a6683710bcc869b63b40bae17b191",
+      "source_url": "https://github.com/Tw1zT3d2four7/Decypharr_vod/releases/download/v0.5.1/decypharr_vod.zip",
+      "latest_url": "decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip",
+      "url": "decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip",
+      "size": 1448
+    },
+    "versions": [
+      {
+        "version": "0.5.1",
+        "commit_sha": "da8574f3dd2e3b8362b3c8ae6eb9a92767f48da0",
+        "commit_sha_short": "da8574f",
+        "build_timestamp": "2026-09-30T03:28:59Z",
+        "last_updated": "2026-09-29T22:14:51-04:00",
+        "checksum_md5": "9208989c0e6d512c60f09a341fdabffe",
+        "checksum_sha256": "2942e2fc7248e4d3273f177d6df507a3f22a6683710bcc869b63b40bae17b191",
+        "source_url": "https://github.com/Tw1zT3d2four7/Decypharr_vod/releases/download/v0.5.1/decypharr_vod.zip",
+        "url": "decypharr-vod-0.5.1/decypharr-vod-0.5.1.zip",
+        "size": 1448
+      }
+    ]
+  }
+}

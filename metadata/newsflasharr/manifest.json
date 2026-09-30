@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-09-30T03:30:52Z",
+  "manifest": {
+    "slug": "newsflasharr",
+    "name": "Newsflasharr",
+    "description": "Central notification service: other plugins drop events, Newsflasharr routes them to Discord, a webhook, ntfy, Apprise, email, a Dispatcharr Connect Integration, or an on-screen banner over live TV, with deduplication, storm throttling, quiet hours and per-channel retry.",
+    "author": "PiratesIRC",
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/PiratesIRC/Dispatcharr-Newsflasharr-Plugin/releases/download/{version}/Newsflasharr.zip",
+    "repo_url": "https://github.com/PiratesIRC/Dispatcharr-Newsflasharr-Plugin",
+    "discord_thread": "https://discord.com/channels/1340492560220684331/1533575430400114730",
+    "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
+    "registry_name": "Tw1zT3d2four7/Plugins",
+    "last_updated": "2026-09-05T17:22:13Z",
+    "latest": {
+      "version": "1.26.2481646",
+      "commit_sha": "c6b7006471cbd1d5f99533347a07b6f05342a084",
+      "commit_sha_short": "c6b7006",
+      "build_timestamp": "2026-09-30T03:29:52Z",
+      "last_updated": "2026-09-05T17:22:13Z",
+      "checksum_md5": "a71e154142d18e3b1612521562af1066",
+      "checksum_sha256": "1dec53fd867101fef01e44cc4dfe1bfdd2e822987712f2d34c5911b1d55757c4",
+      "min_dispatcharr_version": "v0.20.0",
+      "source_url": "https://github.com/PiratesIRC/Dispatcharr-Newsflasharr-Plugin/releases/download/1.26.2481646/Newsflasharr.zip",
+      "latest_url": "newsflasharr-1.26.2481646/newsflasharr-1.26.2481646.zip",
+      "url": "newsflasharr-1.26.2481646/newsflasharr-1.26.2481646.zip",
+      "size": 207
+    },
+    "versions": [
+      {
+        "version": "1.26.2481646",
+        "commit_sha": "c6b7006471cbd1d5f99533347a07b6f05342a084",
+        "commit_sha_short": "c6b7006",
+        "build_timestamp": "2026-09-30T03:29:52Z",
+        "last_updated": "2026-09-05T17:22:13Z",
+        "checksum_md5": "a71e154142d18e3b1612521562af1066",
+        "checksum_sha256": "1dec53fd867101fef01e44cc4dfe1bfdd2e822987712f2d34c5911b1d55757c4",
+        "min_dispatcharr_version": "v0.20.0",
+        "source_url": "https://github.com/PiratesIRC/Dispatcharr-Newsflasharr-Plugin/releases/download/1.26.2481646/Newsflasharr.zip",
+        "url": "newsflasharr-1.26.2481646/newsflasharr-1.26.2481646.zip",
+        "size": 207
+      }
+    ]
+  }
+}

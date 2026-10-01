@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:44:28Z",
+  "generated_at": "2026-10-01T06:20:27Z",
   "manifest": {
     "slug": "decypharr-vod",
     "name": "Decypharr VOD",
@@ -14,21 +14,33 @@
     "repo_url": "https://github.com/Tw1zT3d2four7/Decypharr_vod",
     "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
     "registry_name": "Tw1zT3d2four7/Plugins",
-    "last_updated": "2026-09-30T18:44:02-04:00",
+    "last_updated": "2026-10-01T02:20:00-04:00",
     "latest": {
-      "version": "1.0.0",
-      "commit_sha": "3690cf4faf75c21b2fe9e7321e5d32d04ca71299",
-      "commit_sha_short": "3690cf4",
-      "build_timestamp": "2026-09-30T22:44:15Z",
-      "last_updated": "2026-09-30T18:44:02-04:00",
-      "checksum_md5": "8a9319acdfe1e2836924f8d6947cd40e",
-      "checksum_sha256": "ce0e8296a5147dba2251d7afca9a6400c13fdbda81bfcd2fcdc91bab42c8c635",
-      "source_url": "https://github.com/Tw1zT3d2four7/Decypharr_vod/releases/download/v1.0.0/decypharr_vod.zip",
-      "latest_url": "decypharr-vod-1.0.0/decypharr-vod-1.0.0.zip",
-      "url": "decypharr-vod-1.0.0/decypharr-vod-1.0.0.zip",
-      "size": 1461
+      "version": "1.0.1",
+      "commit_sha": "bbf1b443cfcec39a36c0d035f2c629942a32d570",
+      "commit_sha_short": "bbf1b44",
+      "build_timestamp": "2026-10-01T06:20:14Z",
+      "last_updated": "2026-10-01T02:20:00-04:00",
+      "checksum_md5": "b9ebea425df64dfa8e9fff5fb828be63",
+      "checksum_sha256": "dcce77ddfec26bdf35efe192e4bd6e473ada2a6c3e7e73aa6e5567389c698002",
+      "source_url": "https://github.com/Tw1zT3d2four7/Decypharr_vod/releases/download/v1.0.1/decypharr_vod.zip",
+      "latest_url": "decypharr-vod-1.0.1/decypharr-vod-1.0.1.zip",
+      "url": "decypharr-vod-1.0.1/decypharr-vod-1.0.1.zip",
+      "size": 1462
     },
     "versions": [
+      {
+        "version": "1.0.1",
+        "commit_sha": "bbf1b443cfcec39a36c0d035f2c629942a32d570",
+        "commit_sha_short": "bbf1b44",
+        "build_timestamp": "2026-10-01T06:20:14Z",
+        "last_updated": "2026-10-01T02:20:00-04:00",
+        "checksum_md5": "b9ebea425df64dfa8e9fff5fb828be63",
+        "checksum_sha256": "dcce77ddfec26bdf35efe192e4bd6e473ada2a6c3e7e73aa6e5567389c698002",
+        "source_url": "https://github.com/Tw1zT3d2four7/Decypharr_vod/releases/download/v1.0.1/decypharr_vod.zip",
+        "url": "decypharr-vod-1.0.1/decypharr-vod-1.0.1.zip",
+        "size": 1462
+      },
       {
         "version": "1.0.0",
         "commit_sha": "3690cf4faf75c21b2fe9e7321e5d32d04ca71299",

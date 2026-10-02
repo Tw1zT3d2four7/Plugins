@@ -117,7 +117,7 @@ Plays a looping image or video when every real stream on a channel has failed, s
 
 ### [Decypharr VOD](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/decypharr-vod/README.md)
 
-**Version:** `1.0.7` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 02 2026, 18:18 UTC
+**Version:** `1.0.7` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 02 2026, 18:22 UTC
 
 Native Dispatcharr VOD integration for Decypharr media, providing automatic scanning and organization of movies, series, seasons, and episodes.
 
@@ -127,7 +127,7 @@ Native Dispatcharr VOD integration for Decypharr media, providing automatic scan
 - [Latest Release (`1.0.7`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/decypharr-vod-1.0.7/decypharr-vod-1.0.7.zip)
 - [All Versions (5 available)](./metadata/decypharr-vod)
 
-**Maintainers:** Tw1zT3d2four7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/decypharr-vod) | **Last Change:** [`b208ba5`](https://github.com/Tw1zT3d2four7/Plugins/commit/b208ba58a1ccf1f2f82feb77bf6e04147d48af14)
+**Maintainers:** Tw1zT3d2four7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/decypharr-vod) | **Last Change:** [`2055cc8`](https://github.com/Tw1zT3d2four7/Plugins/commit/2055cc80f96ee26d0ebf3d5adfa2dd73c6bdf0d7)
 
 ---
 
@@ -594,4 +594,4 @@ curl https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/manifest.j
 
 ---
 
-*Last updated: Oct 02 2026, 18:19 UTC*
+*Last updated: Oct 02 2026, 18:23 UTC*

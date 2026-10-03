@@ -426,7 +426,7 @@ Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dyi
 
 ### [Segmentarr](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/segmentarr/README.md)
 
-**Version:** `1.4.3` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 03 2026, 12:48 UTC
+**Version:** `1.4.3` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 03 2026, 12:53 UTC
 
 HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams into segments, repairs timestamp breaks, and delivers clean MPEG-TS through cvlc to a matching Output Profile.
 
@@ -436,7 +436,7 @@ HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams in
 - [Latest Release (`1.4.3`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.4.3/segmentarr-1.4.3.zip)
 - [All Versions (1 available)](./metadata/segmentarr)
 
-**Maintainers:** Tw1zT3d2four7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/segmentarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/segmentarr/README.md) | **Last Change:** [`8b3e810`](https://github.com/Tw1zT3d2four7/Plugins/commit/8b3e810d34d9141383dcc89ddf478302438a3a45)
+**Maintainers:** Tw1zT3d2four7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/segmentarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/segmentarr/README.md) | **Last Change:** [`48a69e6`](https://github.com/Tw1zT3d2four7/Plugins/commit/48a69e6fd6eba6453c61813142f2c3c24784b828)
 
 ---
 
@@ -611,4 +611,4 @@ curl https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/manifest.j
 
 ---
 
-*Last updated: Oct 03 2026, 12:49 UTC*
+*Last updated: Oct 03 2026, 12:53 UTC*

@@ -2,7 +2,7 @@
 
 # Segmentarr
 
-**Version:** `1.4.3` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 03 2026, 12:48 UTC
+**Version:** `1.4.3` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 03 2026, 12:53 UTC
 
 HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams into segments, repairs timestamp breaks, and delivers clean MPEG-TS through cvlc to a matching Output Profile.
 

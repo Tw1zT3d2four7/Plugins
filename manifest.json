@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:43:58Z",
+  "generated_at": "2026-10-03T12:49:13Z",
   "manifest": {
     "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
     "registry_name": "Tw1zT3d2four7/Plugins",
@@ -325,6 +325,20 @@
         "latest_url": "reservoarr-6.3.7/reservoarr-6.3.7.zip",
         "latest_size": 39,
         "min_dispatcharr_version": "v0.25.0"
+      },
+      {
+        "slug": "segmentarr",
+        "name": "Segmentarr",
+        "description": "HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams into segments, repairs timestamp breaks, and delivers clean MPEG-TS through cvlc to a matching Output Profile.",
+        "manifest_url": "https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/metadata/segmentarr/manifest.json",
+        "author": "Tw1zT3d2four7",
+        "license": "MIT",
+        "last_updated": "2026-10-03T08:48:51-04:00",
+        "latest_version": "1.4.3",
+        "latest_md5": "079caa71d61180ff2ff9a1cef0c56255",
+        "latest_sha256": "90a996e1a59c625e4994caaa88bd882351fd547462fa28e1e6e35477571cec92",
+        "latest_url": "segmentarr-1.4.3/segmentarr-1.4.3.zip",
+        "latest_size": 10
       },
       {
         "slug": "stream-dripper",

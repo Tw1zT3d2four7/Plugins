@@ -2,7 +2,7 @@
 
 # Segmentarr
 
-**Version:** `1.4.3` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 03 2026, 12:53 UTC
+**Version:** `1.5.1` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 05 2026, 04:15 UTC
 
 HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams into segments, repairs timestamp breaks, and delivers clean MPEG-TS through cvlc to a matching Output Profile.
 
@@ -12,20 +12,21 @@ HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams in
 
 ### Latest Release
 
-- **Download:** [`segmentarr-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.4.3/segmentarr-1.4.3.zip)
-- **Built:** Oct 03 2026, 12:49 UTC
-- **Source Commit:** [`8b3e810`](https://github.com/Tw1zT3d2four7/Plugins/commit/8b3e810d34d9141383dcc89ddf478302438a3a45)
+- **Download:** [`segmentarr-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.5.1/segmentarr-1.5.1.zip)
+- **Built:** Oct 05 2026, 04:15 UTC
+- **Source Commit:** [`51a287d`](https://github.com/Tw1zT3d2four7/Plugins/commit/51a287db79b1a4106b386f1f838368880d9f844a)
 
 **Checksums:**
 ```
-MD5:    079caa71d61180ff2ff9a1cef0c56255
-SHA256: 90a996e1a59c625e4994caaa88bd882351fd547462fa28e1e6e35477571cec92
+MD5:    14f79f7f1ce1cb974370d29a0270dc5e
+SHA256: 89a0c2e87db442d131e5dc5d636568932ccf6f25232844076630c29777d73ec5
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.5.1` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.5.1/segmentarr-1.5.1.zip) | Oct 05 2026, 04:15 UTC | [`51a287d`](https://github.com/Tw1zT3d2four7/Plugins/commit/51a287db79b1a4106b386f1f838368880d9f844a) | 14f79f7f1ce1cb974370d29a0270dc5e | 89a0c2e87db442d131e5dc5d636568932ccf6f25232844076630c29777d73ec5 |
 | `1.4.3` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.4.3/segmentarr-1.4.3.zip) | Oct 03 2026, 12:49 UTC | [`8b3e810`](https://github.com/Tw1zT3d2four7/Plugins/commit/8b3e810d34d9141383dcc89ddf478302438a3a45) | 079caa71d61180ff2ff9a1cef0c56255 | 90a996e1a59c625e4994caaa88bd882351fd547462fa28e1e6e35477571cec92 |
 
 ---

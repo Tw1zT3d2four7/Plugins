@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:53:35Z",
+  "generated_at": "2026-10-05T04:15:29Z",
   "manifest": {
     "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
     "registry_name": "Tw1zT3d2four7/Plugins",
@@ -333,12 +333,12 @@
         "manifest_url": "https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/metadata/segmentarr/manifest.json",
         "author": "Tw1zT3d2four7",
         "license": "MIT",
-        "last_updated": "2026-10-03T08:48:51-04:00",
-        "latest_version": "1.4.3",
-        "latest_md5": "079caa71d61180ff2ff9a1cef0c56255",
-        "latest_sha256": "90a996e1a59c625e4994caaa88bd882351fd547462fa28e1e6e35477571cec92",
-        "latest_url": "segmentarr-1.4.3/segmentarr-1.4.3.zip",
-        "latest_size": 10
+        "last_updated": "2026-10-05T00:15:07-04:00",
+        "latest_version": "1.5.1",
+        "latest_md5": "14f79f7f1ce1cb974370d29a0270dc5e",
+        "latest_sha256": "89a0c2e87db442d131e5dc5d636568932ccf6f25232844076630c29777d73ec5",
+        "latest_url": "segmentarr-1.5.1/segmentarr-1.5.1.zip",
+        "latest_size": 271
       },
       {
         "slug": "stream-dripper",

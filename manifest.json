@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:15:29Z",
+  "generated_at": "2026-10-05T15:46:20Z",
   "manifest": {
     "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
     "registry_name": "Tw1zT3d2four7/Plugins",
@@ -333,11 +333,11 @@
         "manifest_url": "https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/metadata/segmentarr/manifest.json",
         "author": "Tw1zT3d2four7",
         "license": "MIT",
-        "last_updated": "2026-10-05T00:15:07-04:00",
-        "latest_version": "1.5.1",
-        "latest_md5": "14f79f7f1ce1cb974370d29a0270dc5e",
-        "latest_sha256": "89a0c2e87db442d131e5dc5d636568932ccf6f25232844076630c29777d73ec5",
-        "latest_url": "segmentarr-1.5.1/segmentarr-1.5.1.zip",
+        "last_updated": "2026-10-05T11:45:49-04:00",
+        "latest_version": "1.5.2",
+        "latest_md5": "4616e3a5ad1d063b55d88a344b23f705",
+        "latest_sha256": "38fc0b11d3eb90f57eb83d02bc03de1d7d6342a926033d3fde012524f85b8fc2",
+        "latest_url": "segmentarr-1.5.2/segmentarr-1.5.2.zip",
         "latest_size": 271
       },
       {

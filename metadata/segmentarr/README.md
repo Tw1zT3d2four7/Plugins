@@ -2,7 +2,7 @@
 
 # Segmentarr
 
-**Version:** `1.5.2` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 05 2026, 15:45 UTC
+**Version:** `1.5.3` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 08 2026, 12:42 UTC
 
 HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams into segments, repairs timestamp breaks, and delivers clean MPEG-TS through cvlc to a matching Output Profile.
 
@@ -12,20 +12,21 @@ HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams in
 
 ### Latest Release
 
-- **Download:** [`segmentarr-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.5.2/segmentarr-1.5.2.zip)
-- **Built:** Oct 05 2026, 15:46 UTC
-- **Source Commit:** [`4b2c560`](https://github.com/Tw1zT3d2four7/Plugins/commit/4b2c56065014fc1744903c85bb5ced70a011052c)
+- **Download:** [`segmentarr-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.5.3/segmentarr-1.5.3.zip)
+- **Built:** Oct 08 2026, 12:43 UTC
+- **Source Commit:** [`7b210bd`](https://github.com/Tw1zT3d2four7/Plugins/commit/7b210bdadd88247a424d81be55b007f9b1e773f0)
 
 **Checksums:**
 ```
-MD5:    4616e3a5ad1d063b55d88a344b23f705
-SHA256: 38fc0b11d3eb90f57eb83d02bc03de1d7d6342a926033d3fde012524f85b8fc2
+MD5:    2bc883cd6f10ef1275280bd063e8469e
+SHA256: 7b8b333db86129782bb793883df426aad10116edfc9419fe35a0f9e2a3193693
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.5.3` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.5.3/segmentarr-1.5.3.zip) | Oct 08 2026, 12:43 UTC | [`7b210bd`](https://github.com/Tw1zT3d2four7/Plugins/commit/7b210bdadd88247a424d81be55b007f9b1e773f0) | 2bc883cd6f10ef1275280bd063e8469e | 7b8b333db86129782bb793883df426aad10116edfc9419fe35a0f9e2a3193693 |
 | `1.5.2` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.5.2/segmentarr-1.5.2.zip) | Oct 05 2026, 15:46 UTC | [`4b2c560`](https://github.com/Tw1zT3d2four7/Plugins/commit/4b2c56065014fc1744903c85bb5ced70a011052c) | 4616e3a5ad1d063b55d88a344b23f705 | 38fc0b11d3eb90f57eb83d02bc03de1d7d6342a926033d3fde012524f85b8fc2 |
 | `1.5.1` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.5.1/segmentarr-1.5.1.zip) | Oct 05 2026, 04:15 UTC | [`51a287d`](https://github.com/Tw1zT3d2four7/Plugins/commit/51a287db79b1a4106b386f1f838368880d9f844a) | 14f79f7f1ce1cb974370d29a0270dc5e | 89a0c2e87db442d131e5dc5d636568932ccf6f25232844076630c29777d73ec5 |
 | `1.4.3` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.4.3/segmentarr-1.4.3.zip) | Oct 03 2026, 12:49 UTC | [`8b3e810`](https://github.com/Tw1zT3d2four7/Plugins/commit/8b3e810d34d9141383dcc89ddf478302438a3a45) | 079caa71d61180ff2ff9a1cef0c56255 | 90a996e1a59c625e4994caaa88bd882351fd547462fa28e1e6e35477571cec92 |

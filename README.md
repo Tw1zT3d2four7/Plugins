@@ -19,10 +19,10 @@ This branch contains all published plugin releases.
 | [`Dispatcharr Exporter`](#dispatcharr-exporter) | `3.1.0` | sethwv | MIT | Expose Dispatcharr metrics in Prometheus exporter-compatible format for monitoring |
 | [`Ranked Matchups (Top Games)`](#ranked-matchups-top-games-) | `1.31.0` | Jacob-Lasky | MIT | Never miss a good game. Scores every upcoming game across 39 leagues, tours and competitions (22 of them soccer, plus NFL, NBA, MLB, NHL, NCAA D1 football and basketball, UFC, boxing, tennis, golf and motorsport), then builds a Top Matchups group holding only the ones worth watching and shows why each game ranked where it did in its EPG description. Finished games can clear themselves out and be replaced from a bench of the next-best fixtures. |
 | [`Dispatchwrapparr`](#dispatchwrapparr) | `1.7.8` | jordandalley | MIT | An intelligent DRM/Clearkey capable stream profile for Dispatcharr |
-| [`Dustarr`](#dustarr) | `1.26.2481620` | PiratesIRC | MIT | Records which channels are actually watched and reports the ones that are not, so you can turn off the dead weight in your lineup. Read only: it never changes a channel and never contacts your provider. |
+| [`Dustarr`](#dustarr) | `1.26.2821314` | PiratesIRC | MIT | Records which channels are actually watched and reports the ones that are not, so you can turn off the dead weight in your lineup. Read only: it never changes a channel and never contacts your provider. |
 | [`EPG & Sports Editor`](#epg-sports-editor) | `0.5.08` | jstevenscl | MIT | Transform and clean your EPG data using regex and find/replace rules. Creates virtual copies of your sources — originals are never touched. Fills placeholder schedules for channels with no EPG, and includes a Sports Editor: automatically renames Auto Channel Sync-created sports channels, assigns matchup logos, and generates real Pregame/Live/Postgame EPG data by matching against a live public schedule (93 leagues — every major US team sport, 30+ soccer competitions, tennis, golf, NASCAR, F1, UFC/MMA/boxing/darts, and more). Renamed from EPGeditARR; existing installs carry their settings forward automatically. |
 | [`EPG Janitor`](#epg-janitor) | `1.26.2481223` | PiratesIRC | MIT | Scans for channels with EPG assignments but no program data. Auto-matches EPG to channels using intelligent fuzzy matching with aliases, removes EPG from hidden channels, and manages EPG assignments. |
-| [`Event Channel Managarr`](#event-channel-managarr) | `1.26.2631853` | PiratesIRC | MIT | Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG. |
+| [`Event Channel Managarr`](#event-channel-managarr) | `1.26.2821323` | PiratesIRC | MIT | Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG. |
 | [`Gluetun Rotate`](#gluetun-rotate) | `0.4.0` | PilaScat | MIT | Moves Gluetun to another VPN server when the IPTV provider refuses the current exit address. |
 | [`IPTV Checker`](#iptv-checker) | `1.26.2561754` | PiratesIRC | MIT | Check IPTV stream status and quality with ffprobe, then rename, move, restore or delete channels based on the result. Judges a channel by all of its streams, so a working backup never marks it dead. |
 | [`Lineuparr`](#lineuparr) | `1.26.2561550` | PiratesIRC | MIT | Mirror real-world provider channel lineups by creating channel groups, channels, and fuzzy-matching IPTV streams to them. |
@@ -35,7 +35,7 @@ This branch contains all published plugin releases.
 | [`reservoarr`](#reservoarr) | `6.3.8` | brko7 | MIT | Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying |
 | [`Segmentarr`](#segmentarr) | `1.5.7` | Tw1zT3d2four7 | MIT | HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams into segments, repairs timestamp breaks, and delivers clean MPEG-TS through cvlc to a matching Output Profile. |
 | [`Stream Dripper`](#stream-dripper) | `2.0.0` | Megamannen | Artistic-2.0 | Automatically drops all active streams once per day at a configured time, with a manual drop-now button. |
-| [`Stream-Mapparr`](#stream-mapparr) | `1.26.2681209` | PiratesIRC | MIT | Automatically add matching streams to channels based on name similarity and quality precedence. Supports unlimited stream matching, channel visibility management, and CSV export cleanup. |
+| [`Stream-Mapparr`](#stream-mapparr) | `1.26.2821334` | PiratesIRC | MIT | Automatically add matching streams to channels based on name similarity and quality precedence. Supports unlimited stream matching, channel visibility management, and CSV export cleanup. |
 | [`Telegram Alerts`](#telegram-alerts) | `0.4.5` | R3XCHRIS | MIT | Push Dispatcharr channel/stream/VOD events to a Telegram chat via a bot. Includes a manual test action, per-event toggles, and an optional cron-driven daily report (public IP + geo + speedtest + activity + source health). |
 | [`Ticker`](#ticker) | `0.5.03` | jstevenscl | MIT | Dynamic text overlays for IPTV channels — Satellite Radio Now Playing, Sports Ticker, Custom Text, EAS/JAS Weather Alerts |
 | [`Twitcharr`](#twitcharr) | `1.3.2` | eliasbruno124-dev | MIT | Twitch live-TV plugin for Dispatcharr with automatic channels, streams, XMLTV guide data and Streamlink playback. |
@@ -188,7 +188,7 @@ An intelligent DRM/Clearkey capable stream profile for Dispatcharr
 
 ### [Dustarr](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/dustarr/README.md)
 
-**Version:** `1.26.2481620` | **Author:** PiratesIRC | **Last Updated:** Sep 05 2026, 17:13 UTC
+**Version:** `1.26.2821314` | **Author:** PiratesIRC | **Last Updated:** Oct 09 2026, 13:24 UTC
 
 Records which channels are actually watched and reports the ones that are not, so you can turn off the dead weight in your lineup. Read only: it never changes a channel and never contacts your provider.
 
@@ -197,10 +197,10 @@ Records which channels are actually watched and reports the ones that are not, s
 ![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.20.0-brightgreen?style=flat-square)
 
 **Downloads:**
-- [Latest Release (`1.26.2481620`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/dustarr-1.26.2481620/dustarr-1.26.2481620.zip)
-- [All Versions (1 available)](./metadata/dustarr)
+- [Latest Release (`1.26.2821314`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/dustarr-1.26.2821314/dustarr-1.26.2821314.zip)
+- [All Versions (2 available)](./metadata/dustarr)
 
-**Maintainers:** PiratesIRC | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/dustarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/dustarr/README.md) | **Last Change:** [`8a2dffb`](https://github.com/Tw1zT3d2four7/Plugins/commit/8a2dffb328107de46d80063dc81eff7620dab49f)
+**Maintainers:** PiratesIRC | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/dustarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/dustarr/README.md) | **Last Change:** [`c9305c6`](https://github.com/Tw1zT3d2four7/Plugins/commit/c9305c63733bfefa972e2dfacbac146f832ed400)
 
 ---
 
@@ -240,7 +240,7 @@ Scans for channels with EPG assignments but no program data. Auto-matches EPG to
 
 ### [Event Channel Managarr](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/event-channel-managarr/README.md)
 
-**Version:** `1.26.2631853` | **Author:** PiratesIRC | **Last Updated:** Sep 20 2026, 18:58 UTC
+**Version:** `1.26.2821323` | **Author:** PiratesIRC | **Last Updated:** Oct 09 2026, 13:29 UTC
 
 Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG.
 
@@ -249,10 +249,10 @@ Automates channel visibility by hiding channels without events and showing those
 ![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.20.0-brightgreen?style=flat-square)
 
 **Downloads:**
-- [Latest Release (`1.26.2631853`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/event-channel-managarr-1.26.2631853/event-channel-managarr-1.26.2631853.zip)
-- [All Versions (1 available)](./metadata/event-channel-managarr)
+- [Latest Release (`1.26.2821323`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/event-channel-managarr-1.26.2821323/event-channel-managarr-1.26.2821323.zip)
+- [All Versions (2 available)](./metadata/event-channel-managarr)
 
-**Maintainers:** PiratesIRC | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/event-channel-managarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/event-channel-managarr/README.md) | **Last Change:** [`69d4975`](https://github.com/Tw1zT3d2four7/Plugins/commit/69d49755bd377fbb1ed36627c4e61453874edc12)
+**Maintainers:** PiratesIRC | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/event-channel-managarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/event-channel-managarr/README.md) | **Last Change:** [`033d920`](https://github.com/Tw1zT3d2four7/Plugins/commit/033d920f1ce7acda8dc524d653a90e724c6ae8d6)
 
 ---
 
@@ -428,7 +428,7 @@ Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dyi
 
 ### [Segmentarr](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/segmentarr/README.md)
 
-**Version:** `1.5.7` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 09 2026, 14:21 UTC
+**Version:** `1.5.7` | **Author:** Tw1zT3d2four7 | **Last Updated:** Oct 09 2026, 14:25 UTC
 
 HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams into segments, repairs timestamp breaks, and delivers clean MPEG-TS through cvlc to a matching Output Profile.
 
@@ -438,7 +438,7 @@ HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams in
 - [Latest Release (`1.5.7`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/segmentarr-1.5.7/segmentarr-1.5.7.zip)
 - [All Versions (6 available)](./metadata/segmentarr)
 
-**Maintainers:** Tw1zT3d2four7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/segmentarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/segmentarr/README.md) | **Last Change:** [`788646f`](https://github.com/Tw1zT3d2four7/Plugins/commit/788646fb93c9b08444e7fb316d7c59ed17b379c0)
+**Maintainers:** Tw1zT3d2four7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/segmentarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/segmentarr/README.md) | **Last Change:** [`56c2220`](https://github.com/Tw1zT3d2four7/Plugins/commit/56c222040c2a2357c79de3d96d4142cbeeed01b6)
 
 ---
 
@@ -462,7 +462,7 @@ Automatically drops all active streams once per day at a configured time, with a
 
 ### [Stream-Mapparr](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/stream-mapparr/README.md)
 
-**Version:** `1.26.2681209` | **Author:** PiratesIRC | **Last Updated:** Sep 25 2026, 12:17 UTC
+**Version:** `1.26.2821334` | **Author:** PiratesIRC | **Last Updated:** Oct 09 2026, 13:41 UTC
 
 Automatically add matching streams to channels based on name similarity and quality precedence. Supports unlimited stream matching, channel visibility management, and CSV export cleanup.
 
@@ -471,10 +471,10 @@ Automatically add matching streams to channels based on name similarity and qual
 ![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.20.0-brightgreen?style=flat-square)
 
 **Downloads:**
-- [Latest Release (`1.26.2681209`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/stream-mapparr-1.26.2681209/stream-mapparr-1.26.2681209.zip)
-- [All Versions (1 available)](./metadata/stream-mapparr)
+- [Latest Release (`1.26.2821334`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/stream-mapparr-1.26.2821334/stream-mapparr-1.26.2821334.zip)
+- [All Versions (2 available)](./metadata/stream-mapparr)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/stream-mapparr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/stream-mapparr/README.md) | **Last Change:** [`d75dbde`](https://github.com/Tw1zT3d2four7/Plugins/commit/d75dbde6de2d76eb9d036eaea6742b8889bb9a06)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/stream-mapparr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/stream-mapparr/README.md) | **Last Change:** [`e32340a`](https://github.com/Tw1zT3d2four7/Plugins/commit/e32340a26d7bdec3ee74590b01e40251f4287c47)
 
 ---
 
@@ -645,4 +645,4 @@ curl https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/manifest.j
 
 ---
 
-*Last updated: Oct 09 2026, 14:22 UTC*
+*Last updated: Oct 09 2026, 14:27 UTC*

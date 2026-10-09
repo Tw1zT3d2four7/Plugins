@@ -2,7 +2,7 @@
 
 # Event Channel Managarr
 
-**Version:** `1.26.2631853` | **Author:** PiratesIRC | **Last Updated:** Sep 20 2026, 18:58 UTC
+**Version:** `1.26.2821323` | **Author:** PiratesIRC | **Last Updated:** Oct 09 2026, 13:29 UTC
 
 Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG.
 
@@ -14,20 +14,21 @@ Automates channel visibility by hiding channels without events and showing those
 
 ### Latest Release
 
-- **Download:** [`event-channel-managarr-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/event-channel-managarr-1.26.2631853/event-channel-managarr-1.26.2631853.zip)
-- **Built:** Sep 30 2026, 03:29 UTC
-- **Source Commit:** [`69d4975`](https://github.com/Tw1zT3d2four7/Plugins/commit/69d49755bd377fbb1ed36627c4e61453874edc12)
+- **Download:** [`event-channel-managarr-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/event-channel-managarr-1.26.2821323/event-channel-managarr-1.26.2821323.zip)
+- **Built:** Oct 09 2026, 14:26 UTC
+- **Source Commit:** [`033d920`](https://github.com/Tw1zT3d2four7/Plugins/commit/033d920f1ce7acda8dc524d653a90e724c6ae8d6)
 
 **Checksums:**
 ```
-MD5:    b59cca2653d554d3bcfbd2552dc223c2
-SHA256: a0942551001be5c7c6ce7c89c9057745ad1afbbc1c47bb1057d64d86eaf8c1fc
+MD5:    3583102f4743b7acea5b0e858d779794
+SHA256: c8f1cfae749a5c26760d2437f0987537b0b9c391eaccbbf9c2a47a81902dce69
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.2821323` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/event-channel-managarr-1.26.2821323/event-channel-managarr-1.26.2821323.zip) | Oct 09 2026, 14:26 UTC | [`033d920`](https://github.com/Tw1zT3d2four7/Plugins/commit/033d920f1ce7acda8dc524d653a90e724c6ae8d6) | 3583102f4743b7acea5b0e858d779794 | c8f1cfae749a5c26760d2437f0987537b0b9c391eaccbbf9c2a47a81902dce69 |
 | `1.26.2631853` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/event-channel-managarr-1.26.2631853/event-channel-managarr-1.26.2631853.zip) | Sep 30 2026, 03:29 UTC | [`69d4975`](https://github.com/Tw1zT3d2four7/Plugins/commit/69d49755bd377fbb1ed36627c4e61453874edc12) | b59cca2653d554d3bcfbd2552dc223c2 | a0942551001be5c7c6ce7c89c9057745ad1afbbc1c47bb1057d64d86eaf8c1fc |
 
 ---

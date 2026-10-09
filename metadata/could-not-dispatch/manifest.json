@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:30:52Z",
+  "generated_at": "2026-10-09T13:18:30Z",
   "manifest": {
     "slug": "could-not-dispatch",
     "name": "Could Not Dispatch",
@@ -11,21 +11,33 @@
     "repo_url": "https://github.com/PilaScat/could-not-dispatch",
     "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
     "registry_name": "Tw1zT3d2four7/Plugins",
-    "last_updated": "2026-09-14T14:46:16Z",
+    "last_updated": "2026-10-06T23:20:38Z",
     "latest": {
-      "version": "0.4.0",
-      "commit_sha": "3ee82eb1a2a2abf598e570d617b944149cc019ad",
-      "commit_sha_short": "3ee82eb",
-      "build_timestamp": "2026-09-30T03:28:56Z",
-      "last_updated": "2026-09-14T14:46:16Z",
-      "checksum_md5": "534e882eaa7b4ac919695c672eac80d5",
-      "checksum_sha256": "f96552647275488771c74526dfb0780f1ce82e5065a0494dbfb694636bf97d29",
-      "source_url": "https://github.com/PilaScat/could-not-dispatch/releases/download/v0.4.0/could-not-dispatch-0.4.0.zip",
-      "latest_url": "could-not-dispatch-0.4.0/could-not-dispatch-0.4.0.zip",
-      "url": "could-not-dispatch-0.4.0/could-not-dispatch-0.4.0.zip",
+      "version": "0.5.0",
+      "commit_sha": "8e2b381c3088d1899c334452f36bcb201678c319",
+      "commit_sha_short": "8e2b381",
+      "build_timestamp": "2026-10-09T13:17:41Z",
+      "last_updated": "2026-10-06T23:20:38Z",
+      "checksum_md5": "82e6b5ae22f415dbf37b5a2204950451",
+      "checksum_sha256": "59995d4a526216d2000b2dbe36a8dbb64aa0fb8b702685ad4c1844388e1b0ec4",
+      "source_url": "https://github.com/PilaScat/could-not-dispatch/releases/download/v0.5.0/could-not-dispatch-0.5.0.zip",
+      "latest_url": "could-not-dispatch-0.5.0/could-not-dispatch-0.5.0.zip",
+      "url": "could-not-dispatch-0.5.0/could-not-dispatch-0.5.0.zip",
       "size": 63
     },
     "versions": [
+      {
+        "version": "0.5.0",
+        "commit_sha": "8e2b381c3088d1899c334452f36bcb201678c319",
+        "commit_sha_short": "8e2b381",
+        "build_timestamp": "2026-10-09T13:17:41Z",
+        "last_updated": "2026-10-06T23:20:38Z",
+        "checksum_md5": "82e6b5ae22f415dbf37b5a2204950451",
+        "checksum_sha256": "59995d4a526216d2000b2dbe36a8dbb64aa0fb8b702685ad4c1844388e1b0ec4",
+        "source_url": "https://github.com/PilaScat/could-not-dispatch/releases/download/v0.5.0/could-not-dispatch-0.5.0.zip",
+        "url": "could-not-dispatch-0.5.0/could-not-dispatch-0.5.0.zip",
+        "size": 63
+      },
       {
         "version": "0.4.0",
         "commit_sha": "3ee82eb1a2a2abf598e570d617b944149cc019ad",

@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-09T13:18:30Z",
+  "manifest": {
+    "slug": "vod-manager",
+    "name": "VOD Manager",
+    "description": "Curates Dispatcharr's VOD catalogue from vod-probe's measurements: keeps the versions matching your quality/language settings and prunes the rest. Optional .strm generation for Emby/Jellyfin. Needs vod-probe. Dry-run by default.",
+    "author": "oxios0x00",
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/oxios0x00/dispatcharr-vod-manager/releases/download/v{version}/vod_manager.zip",
+    "repo_url": "https://github.com/oxios0x00/dispatcharr-vod-manager",
+    "registry_url": "https://github.com/Tw1zT3d2four7/Plugins",
+    "registry_name": "Tw1zT3d2four7/Plugins",
+    "last_updated": "2026-10-03T10:31:46-04:00",
+    "latest": {
+      "version": "2.6.3",
+      "commit_sha": "771a848e019bf6d21cf5086902ebbdf0afde0def",
+      "commit_sha_short": "771a848",
+      "build_timestamp": "2026-10-09T13:18:17Z",
+      "last_updated": "2026-10-03T10:31:46-04:00",
+      "checksum_md5": "cad428ce3036bcd4571bc475fcddec41",
+      "checksum_sha256": "46fedae6768ea94cf650eb980a28af4d720734dc5875024fc0a56afc81ab970c",
+      "source_url": "https://github.com/oxios0x00/dispatcharr-vod-manager/releases/download/v2.6.3/vod_manager.zip",
+      "latest_url": "vod-manager-2.6.3/vod-manager-2.6.3.zip",
+      "url": "vod-manager-2.6.3/vod-manager-2.6.3.zip",
+      "size": 569
+    },
+    "versions": [
+      {
+        "version": "2.6.3",
+        "commit_sha": "771a848e019bf6d21cf5086902ebbdf0afde0def",
+        "commit_sha_short": "771a848",
+        "build_timestamp": "2026-10-09T13:18:17Z",
+        "last_updated": "2026-10-03T10:31:46-04:00",
+        "checksum_md5": "cad428ce3036bcd4571bc475fcddec41",
+        "checksum_sha256": "46fedae6768ea94cf650eb980a28af4d720734dc5875024fc0a56afc81ab970c",
+        "source_url": "https://github.com/oxios0x00/dispatcharr-vod-manager/releases/download/v2.6.3/vod_manager.zip",
+        "url": "vod-manager-2.6.3/vod-manager-2.6.3.zip",
+        "size": 569
+      }
+    ]
+  }
+}

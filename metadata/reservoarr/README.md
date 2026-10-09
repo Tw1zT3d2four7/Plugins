@@ -2,7 +2,7 @@
 
 # reservoarr
 
-**Version:** `6.3.7` | **Author:** brko7 | **Last Updated:** Sep 19 2026, 17:49 UTC
+**Version:** `6.3.8` | **Author:** brko7 | **Last Updated:** Oct 07 2026, 12:54 UTC
 
 Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying
 
@@ -14,20 +14,21 @@ Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dyi
 
 ### Latest Release
 
-- **Download:** [`reservoarr-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/reservoarr-6.3.7/reservoarr-6.3.7.zip)
-- **Built:** Sep 30 2026, 03:30 UTC
-- **Source Commit:** [`82ca657`](https://github.com/Tw1zT3d2four7/Plugins/commit/82ca657802d13a6b0d4007b242d791fd961407df)
+- **Download:** [`reservoarr-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/reservoarr-6.3.8/reservoarr-6.3.8.zip)
+- **Built:** Oct 09 2026, 13:18 UTC
+- **Source Commit:** [`b3756ca`](https://github.com/Tw1zT3d2four7/Plugins/commit/b3756ca44380c1fd3e33a6c2ada26e6705725144)
 
 **Checksums:**
 ```
-MD5:    4a778761a475fdb140afa11391682683
-SHA256: bfb53548e63158cf59babf023059372dfc29f428f27bf7fa5c988e82759e019b
+MD5:    c984b43f8b6b80d27bfd0a9eecb8eb20
+SHA256: bc2e5222cea3da65b114dee414befef854e989db6cb4f51e42f06327866a1442
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `6.3.8` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/reservoarr-6.3.8/reservoarr-6.3.8.zip) | Oct 09 2026, 13:18 UTC | [`b3756ca`](https://github.com/Tw1zT3d2four7/Plugins/commit/b3756ca44380c1fd3e33a6c2ada26e6705725144) | c984b43f8b6b80d27bfd0a9eecb8eb20 | bc2e5222cea3da65b114dee414befef854e989db6cb4f51e42f06327866a1442 |
 | `6.3.7` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/reservoarr-6.3.7/reservoarr-6.3.7.zip) | Sep 30 2026, 03:30 UTC | [`82ca657`](https://github.com/Tw1zT3d2four7/Plugins/commit/82ca657802d13a6b0d4007b242d791fd961407df) | 4a778761a475fdb140afa11391682683 | bfb53548e63158cf59babf023059372dfc29f428f27bf7fa5c988e82759e019b |
 
 ---

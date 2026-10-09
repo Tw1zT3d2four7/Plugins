@@ -14,33 +14,35 @@ This branch contains all published plugin releases.
 | [`Audio Buffer Tuner`](#audio-buffer-tuner) | `0.3.5` | CtznSniiips | MIT | Speeds up channel startup for low-bitrate (usually audio only) streams by lowering the TS-proxy prebuffer for chosen Channel Groups. |
 | [`Channel Mapparr`](#channel-mapparr) | `1.26.2481147` | PiratesIRC | MIT | Standardizes broadcast (OTA) and premium/cable channel names using network data and channel lists. Supports M3U stream import, category organization, and fuzzy matching across 42K+ channels in 11 countries. |
 | [`Clapparr`](#clapparr) | `1.3.0` | v8eta | MIT | The metadata slate for your DVR: writes Kodi/Plex NFO sidecars, posters and episode thumbnails so recordings present with real titles, summaries and artwork instead of 'Episode 08-18'. |
-| [`Could Not Dispatch`](#could-not-dispatch) | `0.4.0` | PilaScat | MIT | Plays a looping image or video when every real stream on a channel has failed, so viewers see a message instead of a black screen. With an API key, it later sends the channel back to its first stream. |
+| [`Could Not Dispatch`](#could-not-dispatch) | `0.5.0` | PilaScat | MIT | Plays a looping image or video when every real stream on a channel has failed, so viewers see a message instead of a black screen. With an API key, it later sends the channel back to its first stream. |
 | [`Decypharr VOD`](#decypharr-vod) | `1.0.7` | Tw1zT3d2four7 | MIT | Native Dispatcharr VOD integration for Decypharr media, providing automatic scanning and organization of movies, series, seasons, and episodes. |
 | [`Dispatcharr Exporter`](#dispatcharr-exporter) | `3.1.0` | sethwv | MIT | Expose Dispatcharr metrics in Prometheus exporter-compatible format for monitoring |
 | [`Ranked Matchups (Top Games)`](#ranked-matchups-top-games-) | `1.31.0` | Jacob-Lasky | MIT | Never miss a good game. Scores every upcoming game across 39 leagues, tours and competitions (22 of them soccer, plus NFL, NBA, MLB, NHL, NCAA D1 football and basketball, UFC, boxing, tennis, golf and motorsport), then builds a Top Matchups group holding only the ones worth watching and shows why each game ranked where it did in its EPG description. Finished games can clear themselves out and be replaced from a bench of the next-best fixtures. |
 | [`Dispatchwrapparr`](#dispatchwrapparr) | `1.7.8` | jordandalley | MIT | An intelligent DRM/Clearkey capable stream profile for Dispatcharr |
 | [`Dustarr`](#dustarr) | `1.26.2481620` | PiratesIRC | MIT | Records which channels are actually watched and reports the ones that are not, so you can turn off the dead weight in your lineup. Read only: it never changes a channel and never contacts your provider. |
-| [`EPG & Sports Editor`](#epg-sports-editor) | `0.5.07` | jstevenscl | MIT | Transform and clean your EPG data using regex and find/replace rules. Creates virtual copies of your sources — originals are never touched. Fills placeholder schedules for channels with no EPG, and includes a Sports Editor: automatically renames Auto Channel Sync-created sports channels, assigns matchup logos, and generates real Pregame/Live/Postgame EPG data by matching against a live public schedule (93 leagues — every major US team sport, 30+ soccer competitions, tennis, golf, NASCAR, F1, UFC/MMA/boxing/darts, and more). Renamed from EPGeditARR; existing installs carry their settings forward automatically. |
+| [`EPG & Sports Editor`](#epg-sports-editor) | `0.5.08` | jstevenscl | MIT | Transform and clean your EPG data using regex and find/replace rules. Creates virtual copies of your sources — originals are never touched. Fills placeholder schedules for channels with no EPG, and includes a Sports Editor: automatically renames Auto Channel Sync-created sports channels, assigns matchup logos, and generates real Pregame/Live/Postgame EPG data by matching against a live public schedule (93 leagues — every major US team sport, 30+ soccer competitions, tennis, golf, NASCAR, F1, UFC/MMA/boxing/darts, and more). Renamed from EPGeditARR; existing installs carry their settings forward automatically. |
 | [`EPG Janitor`](#epg-janitor) | `1.26.2481223` | PiratesIRC | MIT | Scans for channels with EPG assignments but no program data. Auto-matches EPG to channels using intelligent fuzzy matching with aliases, removes EPG from hidden channels, and manages EPG assignments. |
 | [`Event Channel Managarr`](#event-channel-managarr) | `1.26.2631853` | PiratesIRC | MIT | Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG. |
-| [`Gluetun Rotate`](#gluetun-rotate) | `0.3.0` | PilaScat | MIT | Moves Gluetun to another VPN server when the IPTV provider refuses the current exit address. |
+| [`Gluetun Rotate`](#gluetun-rotate) | `0.4.0` | PilaScat | MIT | Moves Gluetun to another VPN server when the IPTV provider refuses the current exit address. |
 | [`IPTV Checker`](#iptv-checker) | `1.26.2561754` | PiratesIRC | MIT | Check IPTV stream status and quality with ffprobe, then rename, move, restore or delete channels based on the result. Judges a channel by all of its streams, so a working backup never marks it dead. |
 | [`Lineuparr`](#lineuparr) | `1.26.2561550` | PiratesIRC | MIT | Mirror real-world provider channel lineups by creating channel groups, channels, and fuzzy-matching IPTV streams to them. |
 | [`M3U Expiration Notifier`](#m3u-expiration-notifier) | `1.0.0` | barryanderson | MIT | Checks your M3U account expiration dates on a schedule and emails you before (and when) they expire. |
 | [`Multiview`](#multiview) | `0.4.3` | sethwv | MIT | Tile multiple Dispatcharr channel streams into multi-view outputs using FFmpeg |
 | [`Newsflasharr`](#newsflasharr) | `1.26.2481646` | PiratesIRC | MIT | Central notification service: other plugins drop events, Newsflasharr routes them to Discord, a webhook, ntfy, Apprise, email, a Dispatcharr Connect Integration, or an on-screen banner over live TV, with deduplication, storm throttling, quiet hours and per-channel retry. |
-| [`Packet Slapper`](#packet-slapper) | `1.0.0` | write-erase | MIT | Runs scheduled or on-demand Ookla Speedtests through Dispatcharr to measure speed and latency. |
-| [`PWS - Pirate Weatharr Station`](#pws-pirate-weatharr-station) | `1.4.2` | dexdeadly | MIT | TV-style weather channels powered by the Pirate Weather API & NOAA. Runs up to three stations, each with its own location and Dispatcharr channel. |
+| [`Packet Slapper`](#packet-slapper) | `1.0.3` | write-erase | MIT | Runs scheduled or on-demand Ookla Speedtests through Dispatcharr to measure speed and latency. |
+| [`PWS - Pirate Weatharr Station`](#pws-pirate-weatharr-station) | `1.6.0` | dexdeadly | MIT | TV-style weather channels powered by the Pirate Weather API & NOAA. Runs up to three stations, each with its own location and Dispatcharr channel. |
 | [`Profilarr`](#profilarr) | `2.1.6` | Tw1zT3d2four7 | MIT | Hybrid ffmpeg + cvlc stream profiles. ffmpeg fetches the provider stream directly with a custom user-agent and reconnect handling, and regenerates timestamps (+genpts+igndts+discardcorrupt); cvlc then buffers and delivers the already-clean stream, so downstream players don't freeze on a CDN-hiccup discontinuity. |
-| [`reservoarr`](#reservoarr) | `6.3.7` | brko7 | MIT | Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying |
+| [`reservoarr`](#reservoarr) | `6.3.8` | brko7 | MIT | Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying |
 | [`Segmentarr`](#segmentarr) | `1.5.6` | Tw1zT3d2four7 | MIT | HLS-segmenting stream profile for Dispatcharr: splits XC/URL provider streams into segments, repairs timestamp breaks, and delivers clean MPEG-TS through cvlc to a matching Output Profile. |
 | [`Stream Dripper`](#stream-dripper) | `2.0.0` | Megamannen | Artistic-2.0 | Automatically drops all active streams once per day at a configured time, with a manual drop-now button. |
 | [`Stream-Mapparr`](#stream-mapparr) | `1.26.2681209` | PiratesIRC | MIT | Automatically add matching streams to channels based on name similarity and quality precedence. Supports unlimited stream matching, channel visibility management, and CSV export cleanup. |
 | [`Telegram Alerts`](#telegram-alerts) | `0.4.5` | R3XCHRIS | MIT | Push Dispatcharr channel/stream/VOD events to a Telegram chat via a bot. Includes a manual test action, per-event toggles, and an optional cron-driven daily report (public IP + geo + speedtest + activity + source health). |
 | [`Ticker`](#ticker) | `0.5.03` | jstevenscl | MIT | Dynamic text overlays for IPTV channels — Satellite Radio Now Playing, Sports Ticker, Custom Text, EAS/JAS Weather Alerts |
 | [`Twitcharr`](#twitcharr) | `1.3.2` | eliasbruno124-dev | MIT | Twitch live-TV plugin for Dispatcharr with automatic channels, streams, XMLTV guide data and Streamlink playback. |
-| [`Underfed`](#underfed) | `0.5.0` | PilaScat | MIT | Moves a channel off a source that is starving it, drifting its sound or refusing it: to the next source when the stream arrives at a fraction of its bitrate or with its timestamps apart, to the back of the chain when the provider answers 403. |
-| [`VOD to Media Library`](#vod-to-media-library) | `1.18.0` | R3XCHRIS | MIT | Generate .strm files (with optional NFO metadata) from your Dispatcharr VOD catalogue so Jellyfin / Emby / Kodi / ChannelsDVR can index your movies and series. Adds a cron-driven auto-rescan that picks up newly-added episodes nightly. Optional category-nested folder layout for genre-organised libraries. |
+| [`Underfed`](#underfed) | `0.6.0` | PilaScat | MIT | Moves a channel off a source that is starving it, drifting its sound or refusing it: to the next source when the stream arrives at a fraction of its bitrate or with its timestamps apart, to the back of the chain when the provider answers 403. |
+| [`VOD Manager`](#vod-manager) | `2.6.3` | oxios0x00 | MIT | Curates Dispatcharr's VOD catalogue from vod-probe's measurements: keeps the versions matching your quality/language settings and prunes the rest. Optional .strm generation for Emby/Jellyfin. Needs vod-probe. Dry-run by default. |
+| [`VOD Probe`](#vod-probe) | `1.3.2` | oxios0x00 | MIT | Probes the real quality of each VOD relation (movies and every episode of every series version) with ffprobe in a background task and writes it into the relation's custom_properties, so every tool reading Dispatcharr's API can use it. Can also backfill missing tmdb_id/imdb_id from the provider's per-title detail endpoint, merging safely into an existing catalogue entry when one already has the id. Dry run by default. |
+| [`VOD to Media Library`](#vod-to-media-library) | `1.18.1` | R3XCHRIS | MIT | Generate .strm files (with optional NFO metadata) from your Dispatcharr VOD catalogue so Jellyfin / Emby / Kodi / ChannelsDVR can index your movies and series. Adds a cron-driven auto-rescan that picks up newly-added episodes nightly. Optional category-nested folder layout for genre-organised libraries. |
 | [`Waybill`](#waybill) | `1.3.0` | Matthew-Beckett | MIT | Waybill matches, renames, and organizes any streams no matter the provider. Infinitely configurable pipelines for total control. |
 | [`YouTubearr`](#youtubearr) | `1.40.1` | jeff-gooch | Unlicense | Zero-dependency YouTube livestream plugin with automatic monitoring and configurable numbering |
 
@@ -102,17 +104,17 @@ The metadata slate for your DVR: writes Kodi/Plex NFO sidecars, posters and epis
 
 ### [Could Not Dispatch](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/could-not-dispatch/README.md)
 
-**Version:** `0.4.0` | **Author:** PilaScat | **Last Updated:** Sep 14 2026, 14:46 UTC
+**Version:** `0.5.0` | **Author:** PilaScat | **Last Updated:** Oct 06 2026, 23:20 UTC
 
 Plays a looping image or video when every real stream on a channel has failed, so viewers see a message instead of a black screen. With an API key, it later sends the channel back to its first stream.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PilaScat/could-not-dispatch)
 
 **Downloads:**
-- [Latest Release (`0.4.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/could-not-dispatch-0.4.0/could-not-dispatch-0.4.0.zip)
-- [All Versions (1 available)](./metadata/could-not-dispatch)
+- [Latest Release (`0.5.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/could-not-dispatch-0.5.0/could-not-dispatch-0.5.0.zip)
+- [All Versions (2 available)](./metadata/could-not-dispatch)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/could-not-dispatch) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/could-not-dispatch/README.md) | **Last Change:** [`3ee82eb`](https://github.com/Tw1zT3d2four7/Plugins/commit/3ee82eb1a2a2abf598e570d617b944149cc019ad)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/could-not-dispatch) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/could-not-dispatch/README.md) | **Last Change:** [`8e2b381`](https://github.com/Tw1zT3d2four7/Plugins/commit/8e2b381c3088d1899c334452f36bcb201678c319)
 
 ---
 
@@ -204,17 +206,17 @@ Records which channels are actually watched and reports the ones that are not, s
 
 ### [EPG & Sports Editor](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/epg-and-sports-editor/README.md)
 
-**Version:** `0.5.07` | **Author:** jstevenscl | **Last Updated:** Sep 30 2026, 05:00 UTC
+**Version:** `0.5.08` | **Author:** jstevenscl | **Last Updated:** Oct 03 2026, 21:37 UTC
 
 Transform and clean your EPG data using regex and find/replace rules. Creates virtual copies of your sources — originals are never touched. Fills placeholder schedules for channels with no EPG, and includes a Sports Editor: automatically renames Auto Channel Sync-created sports channels, assigns matchup logos, and generates real Pregame/Live/Postgame EPG data by matching against a live public schedule (93 leagues — every major US team sport, 30+ soccer competitions, tennis, golf, NASCAR, F1, UFC/MMA/boxing/darts, and more). Renamed from EPGeditARR; existing installs carry their settings forward automatically.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jstevenscl/epg-and-sports-editor)
 
 **Downloads:**
-- [Latest Release (`0.5.07`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/epg-and-sports-editor-0.5.07/epg-and-sports-editor-0.5.07.zip)
-- [All Versions (2 available)](./metadata/epg-and-sports-editor)
+- [Latest Release (`0.5.08`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/epg-and-sports-editor-0.5.08/epg-and-sports-editor-0.5.08.zip)
+- [All Versions (3 available)](./metadata/epg-and-sports-editor)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/epg-and-sports-editor) | **Last Change:** [`8bb2000`](https://github.com/Tw1zT3d2four7/Plugins/commit/8bb20007b9cb08babf713f659a36b83e02145c81)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/epg-and-sports-editor) | **Last Change:** [`d929e64`](https://github.com/Tw1zT3d2four7/Plugins/commit/d929e64c0ea5aca533ef4b538fea6a5143761e66)
 
 ---
 
@@ -256,17 +258,17 @@ Automates channel visibility by hiding channels without events and showing those
 
 ### [Gluetun Rotate](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/gluetun-rotate/README.md)
 
-**Version:** `0.3.0` | **Author:** PilaScat | **Last Updated:** Sep 21 2026, 03:51 UTC
+**Version:** `0.4.0` | **Author:** PilaScat | **Last Updated:** Oct 07 2026, 00:03 UTC
 
 Moves Gluetun to another VPN server when the IPTV provider refuses the current exit address.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PilaScat/gluetun-rotate)
 
 **Downloads:**
-- [Latest Release (`0.3.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/gluetun-rotate-0.3.0/gluetun-rotate-0.3.0.zip)
-- [All Versions (1 available)](./metadata/gluetun-rotate)
+- [Latest Release (`0.4.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/gluetun-rotate-0.4.0/gluetun-rotate-0.4.0.zip)
+- [All Versions (2 available)](./metadata/gluetun-rotate)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/gluetun-rotate) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/gluetun-rotate/README.md) | **Last Change:** [`f8bf9f3`](https://github.com/Tw1zT3d2four7/Plugins/commit/f8bf9f3352c6144f68d1955b4b3f4b24e6a01fc6)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/gluetun-rotate) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/gluetun-rotate/README.md) | **Last Change:** [`4b4e9db`](https://github.com/Tw1zT3d2four7/Plugins/commit/4b4e9db4f79245acaabfe246307e04da5de5dd57)
 
 ---
 
@@ -360,33 +362,33 @@ Central notification service: other plugins drop events, Newsflasharr routes the
 
 ### [Packet Slapper](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/packet-slapper/README.md)
 
-**Version:** `1.0.0` | **Author:** write-erase | **Last Updated:** Sep 27 2026, 19:21 UTC
+**Version:** `1.0.3` | **Author:** write-erase | **Last Updated:** Oct 06 2026, 22:16 UTC
 
 Runs scheduled or on-demand Ookla Speedtests through Dispatcharr to measure speed and latency.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/write-erase/packet-slapper)
 
 **Downloads:**
-- [Latest Release (`1.0.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/packet-slapper-1.0.0/packet-slapper-1.0.0.zip)
-- [All Versions (1 available)](./metadata/packet-slapper)
+- [Latest Release (`1.0.3`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/packet-slapper-1.0.3/packet-slapper-1.0.3.zip)
+- [All Versions (2 available)](./metadata/packet-slapper)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/packet-slapper) | **Last Change:** [`3cfc312`](https://github.com/Tw1zT3d2four7/Plugins/commit/3cfc312abf5b0b52533e0b41165189beae2d072e)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/packet-slapper) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/packet-slapper/README.md) | **Last Change:** [`c2d4441`](https://github.com/Tw1zT3d2four7/Plugins/commit/c2d44413106619a95d620c87d0067b29109872da)
 
 ---
 
 ### [PWS - Pirate Weatharr Station](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/pirate-weatharr-station/README.md)
 
-**Version:** `1.4.2` | **Author:** dexdeadly | **Last Updated:** Oct 01 2026, 19:45 UTC
+**Version:** `1.6.0` | **Author:** dexdeadly | **Last Updated:** Oct 06 2026, 08:09 UTC
 
 TV-style weather channels powered by the Pirate Weather API & NOAA. Runs up to three stations, each with its own location and Dispatcharr channel.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dexdeadly/pirate-weatharr-station/)
 
 **Downloads:**
-- [Latest Release (`1.4.2`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/pirate-weatharr-station-1.4.2/pirate-weatharr-station-1.4.2.zip)
-- [All Versions (2 available)](./metadata/pirate-weatharr-station)
+- [Latest Release (`1.6.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/pirate-weatharr-station-1.6.0/pirate-weatharr-station-1.6.0.zip)
+- [All Versions (3 available)](./metadata/pirate-weatharr-station)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/pirate-weatharr-station) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/pirate-weatharr-station/README.md) | **Last Change:** [`3c4dd61`](https://github.com/Tw1zT3d2four7/Plugins/commit/3c4dd6126c9c7c2bdc12f8e9c33fd8295b3f1c18)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/pirate-weatharr-station) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/pirate-weatharr-station/README.md) | **Last Change:** [`c2e3d69`](https://github.com/Tw1zT3d2four7/Plugins/commit/c2e3d69ab46b4bfc91ed80ae219cb234a7c7c60c)
 
 ---
 
@@ -408,7 +410,7 @@ Hybrid ffmpeg + cvlc stream profiles. ffmpeg fetches the provider stream directl
 
 ### [reservoarr](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/reservoarr/README.md)
 
-**Version:** `6.3.7` | **Author:** brko7 | **Last Updated:** Sep 19 2026, 17:49 UTC
+**Version:** `6.3.8` | **Author:** brko7 | **Last Updated:** Oct 07 2026, 12:54 UTC
 
 Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying
 
@@ -417,10 +419,10 @@ Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dyi
 ![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.25.0-brightgreen?style=flat-square)
 
 **Downloads:**
-- [Latest Release (`6.3.7`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/reservoarr-6.3.7/reservoarr-6.3.7.zip)
-- [All Versions (1 available)](./metadata/reservoarr)
+- [Latest Release (`6.3.8`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/reservoarr-6.3.8/reservoarr-6.3.8.zip)
+- [All Versions (2 available)](./metadata/reservoarr)
 
-**Maintainers:** brko7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/reservoarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/reservoarr/README.md) | **Last Change:** [`82ca657`](https://github.com/Tw1zT3d2four7/Plugins/commit/82ca657802d13a6b0d4007b242d791fd961407df)
+**Maintainers:** brko7 | **Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/reservoarr) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/reservoarr/README.md) | **Last Change:** [`b3756ca`](https://github.com/Tw1zT3d2four7/Plugins/commit/b3756ca44380c1fd3e33a6c2ada26e6705725144)
 
 ---
 
@@ -528,23 +530,55 @@ Twitch live-TV plugin for Dispatcharr with automatic channels, streams, XMLTV gu
 
 ### [Underfed](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/underfed/README.md)
 
-**Version:** `0.5.0` | **Author:** PilaScat | **Last Updated:** Sep 21 2026, 21:08 UTC
+**Version:** `0.6.0` | **Author:** PilaScat | **Last Updated:** Oct 06 2026, 23:30 UTC
 
 Moves a channel off a source that is starving it, drifting its sound or refusing it: to the next source when the stream arrives at a fraction of its bitrate or with its timestamps apart, to the back of the chain when the provider answers 403.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PilaScat/underfed)
 
 **Downloads:**
-- [Latest Release (`0.5.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/underfed-0.5.0/underfed-0.5.0.zip)
-- [All Versions (1 available)](./metadata/underfed)
+- [Latest Release (`0.6.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/underfed-0.6.0/underfed-0.6.0.zip)
+- [All Versions (2 available)](./metadata/underfed)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/underfed) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/underfed/README.md) | **Last Change:** [`89900f9`](https://github.com/Tw1zT3d2four7/Plugins/commit/89900f9516a27a1946af159412d2210b7e97cb65)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/underfed) | [README](https://github.com/Tw1zT3d2four7/Plugins/blob/main/plugins/underfed/README.md) | **Last Change:** [`8e1ce6d`](https://github.com/Tw1zT3d2four7/Plugins/commit/8e1ce6dae65c33aa4bd0539e1ebe2587c76fccbe)
+
+---
+
+### [VOD Manager](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/vod-manager/README.md)
+
+**Version:** `2.6.3` | **Author:** oxios0x00 | **Last Updated:** Oct 03 2026, 14:31 UTC
+
+Curates Dispatcharr's VOD catalogue from vod-probe's measurements: keeps the versions matching your quality/language settings and prunes the rest. Optional .strm generation for Emby/Jellyfin. Needs vod-probe. Dry-run by default.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/oxios0x00/dispatcharr-vod-manager)
+
+**Downloads:**
+- [Latest Release (`2.6.3`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/vod-manager-2.6.3/vod-manager-2.6.3.zip)
+- [All Versions (1 available)](./metadata/vod-manager)
+
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/vod-manager) | **Last Change:** [`771a848`](https://github.com/Tw1zT3d2four7/Plugins/commit/771a848e019bf6d21cf5086902ebbdf0afde0def)
+
+---
+
+### [VOD Probe](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/vod-probe/README.md)
+
+**Version:** `1.3.2` | **Author:** oxios0x00 | **Last Updated:** Oct 03 2026, 14:30 UTC
+
+Probes the real quality of each VOD relation (movies and every episode of every series version) with ffprobe in a background task and writes it into the relation's custom_properties, so every tool reading Dispatcharr's API can use it. Can also backfill missing tmdb_id/imdb_id from the provider's per-title detail endpoint, merging safely into an existing catalogue entry when one already has the id. Dry run by default.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/oxios0x00/dispatcharr-vod-probe)
+
+**Downloads:**
+- [Latest Release (`1.3.2`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/vod-probe-1.3.2/vod-probe-1.3.2.zip)
+- [All Versions (1 available)](./metadata/vod-probe)
+
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/vod-probe) | **Last Change:** [`8041328`](https://github.com/Tw1zT3d2four7/Plugins/commit/80413280036aeac2cd4b08c8d358844dae2cbb3e)
 
 ---
 
 ### [VOD to Media Library](https://github.com/Tw1zT3d2four7/Plugins/blob/releases/metadata/vod2mlib/README.md)
 
-**Version:** `1.18.0` | **Author:** R3XCHRIS | **Last Updated:** Aug 19 2026, 16:22 UTC
+**Version:** `1.18.1` | **Author:** R3XCHRIS | **Last Updated:** Oct 05 2026, 21:29 UTC
 
 Generate .strm files (with optional NFO metadata) from your Dispatcharr VOD catalogue so Jellyfin / Emby / Kodi / ChannelsDVR can index your movies and series. Adds a cron-driven auto-rescan that picks up newly-added episodes nightly. Optional category-nested folder layout for genre-organised libraries.
 
@@ -553,10 +587,10 @@ Generate .strm files (with optional NFO metadata) from your Dispatcharr VOD cata
 ![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.24.0-brightgreen?style=flat-square)
 
 **Downloads:**
-- [Latest Release (`1.18.0`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/vod2mlib-1.18.0/vod2mlib-1.18.0.zip)
-- [All Versions (1 available)](./metadata/vod2mlib)
+- [Latest Release (`1.18.1`)](https://github.com/Tw1zT3d2four7/Plugins/releases/download/vod2mlib-1.18.1/vod2mlib-1.18.1.zip)
+- [All Versions (2 available)](./metadata/vod2mlib)
 
-**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/vod2mlib) | **Last Change:** [`b7a546e`](https://github.com/Tw1zT3d2four7/Plugins/commit/b7a546ea5c82bd2e2889a0a4258c695e82aea041)
+**Source:** [Browse](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/vod2mlib) | **Last Change:** [`5a85167`](https://github.com/Tw1zT3d2four7/Plugins/commit/5a85167a421f22ad9e0ec161b31662374deadc07)
 
 ---
 
@@ -611,4 +645,4 @@ curl https://raw.githubusercontent.com/Tw1zT3d2four7/Plugins/releases/manifest.j
 
 ---
 
-*Last updated: Oct 09 2026, 13:09 UTC*
+*Last updated: Oct 09 2026, 13:18 UTC*

@@ -2,7 +2,7 @@
 
 # Packet Slapper
 
-**Version:** `1.0.0` | **Author:** write-erase | **Last Updated:** Sep 27 2026, 19:21 UTC
+**Version:** `1.0.3` | **Author:** write-erase | **Last Updated:** Oct 06 2026, 22:16 UTC
 
 Runs scheduled or on-demand Ookla Speedtests through Dispatcharr to measure speed and latency.
 
@@ -12,20 +12,21 @@ Runs scheduled or on-demand Ookla Speedtests through Dispatcharr to measure spee
 
 ### Latest Release
 
-- **Download:** [`packet-slapper-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/packet-slapper-1.0.0/packet-slapper-1.0.0.zip)
-- **Built:** Sep 30 2026, 03:29 UTC
-- **Source Commit:** [`3cfc312`](https://github.com/Tw1zT3d2four7/Plugins/commit/3cfc312abf5b0b52533e0b41165189beae2d072e)
+- **Download:** [`packet-slapper-latest.zip`](https://github.com/Tw1zT3d2four7/Plugins/releases/download/packet-slapper-1.0.3/packet-slapper-1.0.3.zip)
+- **Built:** Oct 09 2026, 13:17 UTC
+- **Source Commit:** [`c2d4441`](https://github.com/Tw1zT3d2four7/Plugins/commit/c2d44413106619a95d620c87d0067b29109872da)
 
 **Checksums:**
 ```
-MD5:    af97ba78f3e7a0df5d2a7b6824342a07
-SHA256: 6e075bedfcbf06be6c60758f42394a4f771ed8761c4d0a769617c3858b162fb9
+MD5:    b5fdaa795b88e3d30ea2c22321925a27
+SHA256: de7c7a3a00b951bc5055974a5b002946d5f8e4a8569441cfd1c324f65360679b
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.0.3` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/packet-slapper-1.0.3/packet-slapper-1.0.3.zip) | Oct 09 2026, 13:17 UTC | [`c2d4441`](https://github.com/Tw1zT3d2four7/Plugins/commit/c2d44413106619a95d620c87d0067b29109872da) | b5fdaa795b88e3d30ea2c22321925a27 | de7c7a3a00b951bc5055974a5b002946d5f8e4a8569441cfd1c324f65360679b |
 | `1.0.0` | [Download](https://github.com/Tw1zT3d2four7/Plugins/releases/download/packet-slapper-1.0.0/packet-slapper-1.0.0.zip) | Sep 30 2026, 03:29 UTC | [`3cfc312`](https://github.com/Tw1zT3d2four7/Plugins/commit/3cfc312abf5b0b52533e0b41165189beae2d072e) | af97ba78f3e7a0df5d2a7b6824342a07 | 6e075bedfcbf06be6c60758f42394a4f771ed8761c4d0a769617c3858b162fb9 |
 
 ---
@@ -33,3 +34,16 @@ SHA256: 6e075bedfcbf06be6c60758f42394a4f771ed8761c4d0a769617c3858b162fb9
 **Source:** [Browse Plugin](https://github.com/Tw1zT3d2four7/Plugins/tree/main/plugins/packet-slapper)
 
 **Metadata:** [View full manifest](./manifest.json)
+
+---
+
+## Plugin README
+
+# packet-slapper
+Packet Slapper runs an official Ookla speedtest directly from inside Dispatcharr, so it measures whatever network path Dispatcharr itself uses, VPN included, without needing a separate container or docker socket.
+
+Run it on demand or on a schedule. Click Run Now for a one-off test, or turn on the scheduler. Scheduled runs skip themselves automatically if anyone's watching live TV, VOD, or catch-up, since a speedtest eats real bandwidth.
+
+Results show right in Dispatcharr, no external service required. You get download, upload, latency, jitter, packet loss, and which server it hit. Add a Discord webhook if you want, and every result also posts there, either as a plain text message or a colored embed card.
+
+A few extras, too. You can pin tests to one specific Ookla server ID so results stay comparable over time, pick your display timezone from a dropdown, and use Check Active Streams or Scheduler Status any time to see what the plugin is doing right now and when the next run is due.
